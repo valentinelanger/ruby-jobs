@@ -31,8 +31,8 @@ end
 
 def calculate_wages(workers, shifts)
     workers.each do |worker|
-        p get_shift_per_worker(shifts, worker['id'])
-        worker['price'] = calculate_wage_per_worker(get_shift_per_worker(shifts, worker['id']), worker)
+        shift_worker = get_shift_per_worker(shifts, worker['id'])
+        worker['price'] = calculate_wage_per_worker(shift_worker, worker)
     end
 end
 
@@ -48,7 +48,5 @@ def store_price_per_user(workers)
       file.write(JSON.pretty_generate(workers))
     end
 end
-
-p get_shift_per_worker(shifts, 3)
 
 store_price_per_user(build_worker_list(calculate_wages(workers, shifts)))
