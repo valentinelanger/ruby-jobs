@@ -1,13 +1,9 @@
-# Lifen Backend Ruby Challenge
-
- Looking for a job? Check out our [open positions](https://honestica.welcomekit.co/).
-
-## Guidelines
+# Guidelines Backend Ruby Challenge
 
 - clone this repo (do **not** fork it)
 - solve the levels in ascending order
 - commit your code at the end of each level
-- once you are done, ping someone from Lifen (ideally via our jobs page)
+- once you are done, ping someone from XXX (ideally via our jobs page)
 
 You can have a look at the higher levels, but please do the **simplest thing** that could work for the level you're currently solving.
 
